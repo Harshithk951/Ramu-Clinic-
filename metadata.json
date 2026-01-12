@@ -1,0 +1,7 @@
+{
+  "name": "Ramu Clinic",
+  "description": "A modern, bilingual (English/Telugu) medical clinic website for Ramu Clinic in Badangpet, Telangana.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

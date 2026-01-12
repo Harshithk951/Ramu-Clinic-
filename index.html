@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#1A4D2E" />
+    <title>Venu Clinic</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              primary: '#1A4D2E',
+              secondary: '#F5F5F0',
+              accent: '#E07A5F',
+              background: '#FAFAF9',
+              foreground: '#1F2937',
+              muted: '#E5E7EB',
+              'muted-foreground': '#6B7280',
+              input: '#F3F4F6',
+              border: '#E5E5E5',
+              success: '#10B981',
+              error: '#EF4444',
+            },
+            fontFamily: {
+              sans: ['IBM Plex Sans', 'sans-serif'],
+              heading: ['Manrope', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <style>
+      html {
+        scroll-behavior: smooth;
+        -webkit-tap-highlight-color: transparent;
+      }
+      /* Custom Scrollbar for better aesthetics */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #F5F5F0;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #1A4D2E;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #143D24;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@18.3.1",
+    "react-dom/": "https://esm.sh/react-dom@18.3.1/",
+    "react-dom": "https://esm.sh/react-dom@18.3.1",
+    "lucide-react": "https://esm.sh/lucide-react@0.344.0?deps=react@18.3.1",
+    "react-router-dom": "https://esm.sh/react-router-dom@6.22.3?deps=react@18.3.1,react-dom@18.3.1",
+    "axios": "https://esm.sh/axios@1.6.7",
+    "sonner": "https://esm.sh/sonner@1.4.3?deps=react@18.3.1,react-dom@18.3.1",
+    "react/": "https://esm.sh/react@18.3.1/",
+    "@supabase/supabase-js": "https://esm.sh/@supabase/supabase-js@2.39.7"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-background text-foreground antialiased font-sans">
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
