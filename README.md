@@ -147,7 +147,5 @@ To access the /admin route:
 2. Create a user (e.g., admin@ramuclinic.com).
 3. Use these credentials on the /login page of the application.
 
-<div align="center">
-<p>Built with ❤️ for Ramu Clinic</p>
-<p>© 2024 All Rights Reserved</p>
-</div>
+Built with ❤️ for Ramu Clinic
+© 2026 All Rights Reserved
